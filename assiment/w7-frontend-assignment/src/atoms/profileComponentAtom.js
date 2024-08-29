@@ -31,7 +31,7 @@ export const photoState = atom({
     default : "8.2k"
 });
 
-export const followersState= atom({
+export const followersState = atom({
     key : "followersState",
     default : "100k"
 });
