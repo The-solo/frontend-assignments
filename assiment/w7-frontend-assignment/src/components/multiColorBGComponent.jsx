@@ -1,7 +1,7 @@
 import { React, useState } from 'react';
 
 
-export const  MulticolorBGComponent = (() => {
+export const  MulticolorBGComponent = () => {
 
     const [bgColor, setBgColor] = useState('white');
 
@@ -56,4 +56,4 @@ export const  MulticolorBGComponent = (() => {
             </div>
         </div>
     )
-});
+};
