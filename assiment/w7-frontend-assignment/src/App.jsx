@@ -11,8 +11,8 @@ function App() {
     <div>
       <RecoilRoot>
         {/*<ProfileCardComponent/> */}
-        { /* <MulticolorBGComponent/> */}
-        <ParagraphGenerator/>
+    {/*<MulticolorBGComponent/>*/}
+        {<ParagraphGenerator/>}
       </RecoilRoot>
     </div>
   )

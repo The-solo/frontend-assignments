@@ -31,7 +31,7 @@ export const ParagraphGenerator = () => {
                 <div className="flex flex-row justify-center pl-20 pr-20 mx-20 my-10">
                     <InputBox
                     value={words}
-                    placeholder={"     Enter Number Of Words..."}
+                    placeholder={"Enter Number Of Words..."}
                     onChange={(e) => setWords(e.target.value)}></InputBox>
 
                     <Button label="Generate" onClick={handelClick}></Button>
